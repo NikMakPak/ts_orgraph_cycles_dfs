@@ -1,0 +1,23 @@
+{
+  "name": "ts_graph",
+  "version": "1.0.0",
+  "description": "univer task -  graphs and operations with them",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/main.js",
+    "dev:ts": "tsc -w",
+    "dev:js": "nodemon build/main.js",
+    "dev": "concurrently npm:dev:*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graph",
+    "ts"
+  ],
+  "author": "nikmak",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
